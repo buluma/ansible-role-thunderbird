@@ -1,0 +1,9 @@
+---
+- hosts: all
+  remote_user: root
+  become: true
+  tasks:
+    - name: thunderbird --version
+      ansible.builtin.command: thunderbird --version
+      register: result
+      changed_when: result is not succeeded
