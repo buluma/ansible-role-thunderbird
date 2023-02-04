@@ -3,7 +3,7 @@
   remote_user: root
   become: true
   tasks:
-    - name: thunderbird --version
+    - name: Thunderbird --version
       ansible.builtin.command: thunderbird --version
       register: result
       changed_when: result is not succeeded
