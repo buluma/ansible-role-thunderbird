@@ -2,9 +2,9 @@
 
 Ansible Role for Thunderbird Installation
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-thunderbird/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-thunderbird/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-thunderbird/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-thunderbird)|[![quality](https://img.shields.io/ansible/quality/59007)](https://galaxy.ansible.com/buluma/thunderbird)|[![downloads](https://img.shields.io/ansible/role/d/59007)](https://galaxy.ansible.com/buluma/thunderbird)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-thunderbird/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-thunderbird/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-thunderbird/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-thunderbird)|[![downloads](https://img.shields.io/ansible/role/d/4858)](https://galaxy.ansible.com/buluma/thunderbird)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
