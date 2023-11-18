@@ -1,4 +1,4 @@
-# [thunderbird](#thunderbird)
+# [Ansible role thunderbird](#thunderbird)
 
 Ansible Role for Thunderbird Installation
 
