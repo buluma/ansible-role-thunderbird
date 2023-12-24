@@ -1,10 +1,10 @@
-# [Ansible role thunderbird](#thunderbird)
+# Ansible role [thunderbird](https://galaxy.ansible.com/ui/standalone/roles/buluma/thunderbird/documentation)
 
 Ansible Role for Thunderbird Installation
 
-|GitHub|Version|Issues|Pull Requests|
-|------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-thunderbird/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-thunderbird/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/pulls/)|
+|GitHub|Version|Issues|Pull Requests|Downloads|
+|------|-------|------|-------------|---------|
+|[![github](https://github.com/buluma/ansible-role-thunderbird/actions/workflows/molecule.yml/badge.svg)](https://github.com/buluma/ansible-role-thunderbird/actions/workflows/molecule.yml)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-thunderbird.svg)](https://github.com/buluma/ansible-role-thunderbird/pulls/)|[![Ansible Role](https://img.shields.io/ansible/role/d/buluma/thunderbird)](https://galaxy.ansible.com/ui/standalone/roles/buluma/thunderbird/documentation)|
 
 ## [Example Playbook](#example-playbook)
 
