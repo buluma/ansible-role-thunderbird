@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-thunderbird/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/0.3.0...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 5 to 6 [\#13](https://github.com/buluma/ansible-role-thunderbird/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.3.0](https://github.com/buluma/ansible-role-thunderbird/tree/0.3.0) (2024-01-22)
 
 [Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/0.2.0...0.3.0)
