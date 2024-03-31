@@ -70,7 +70,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic, jammy, lunar|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
 |[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
@@ -95,3 +95,4 @@ If you find issues, please register them in [GitHub](https://github.com/buluma/a
 ## [Author Information](#author-information)
 
 [Shadow Walker](https://buluma.github.io/)
+
