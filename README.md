@@ -14,8 +14,14 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
+
+  pre_tasks:
+    - name: Update apt cache.
+      apt: update_cache=yes cache_valid_time=600
+      when: ansible_os_family == 'Debian'
+      changed_when: false
 
   roles:
     - role: buluma.thunderbird
@@ -36,13 +42,6 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
-## [Role Variables](#role-variables)
-
-The default values for the variables are set in [`defaults/main.yml`](https://github.com/buluma/ansible-role-thunderbird/blob/master/defaults/main.yml):
-
-```yaml
----
-```
 
 ## [Requirements](#requirements)
 
@@ -70,7 +69,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 
 |container|tags|
 |---------|----|
-|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|all|
+|[Ubuntu](https://hub.docker.com/r/buluma/ubuntu)|focal, bionic, jammy, lunar|
 |[EL](https://hub.docker.com/r/buluma/enterpriselinux)|all|
 |[opensuse](https://hub.docker.com/r/buluma/opensuse)|all|
 |[Debian](https://hub.docker.com/r/buluma/debian)|all|
