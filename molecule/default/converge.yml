@@ -11,4 +11,4 @@
       changed_when: false
 
   roles:
-    - role: ansible-role-thunderbird
+    - role: buluma.thunderbird
