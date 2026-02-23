@@ -12,32 +12,32 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-- name: Converge
-  hosts: all
-  become: true
-  gather_facts: true
+  - name: Converge
+    hosts: all
+    become: true
+    gather_facts: true
 
-  pre_tasks:
-    - name: Update apt cache.
-      apt: update_cache=yes cache_valid_time=600
-      when: ansible_os_family == 'Debian'
-      changed_when: false
+    pre_tasks:
+      - name: Update apt cache.
+        apt: update_cache=yes cache_valid_time=600
+        when: ansible_os_family == 'Debian'
+        changed_when: false
 
-  roles:
-    - role: buluma.thunderbird
+    roles:
+      - role: buluma.thunderbird
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-thunderbird/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-- hosts: all
-  remote_user: root
-  become: true
-  gather_facts: false
+  - hosts: all
+    remote_user: root
+    become: true
+    gather_facts: false
 
-  roles:
-    - role: buluma.bootstrap
+    roles:
+      - role: buluma.bootstrap
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.

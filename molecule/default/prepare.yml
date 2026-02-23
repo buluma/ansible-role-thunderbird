@@ -1,8 +1,8 @@
 ---
-- hosts: all
-  remote_user: root
-  become: true
-  gather_facts: false
+  - hosts: all
+    remote_user: root
+    become: true
+    gather_facts: false
 
-  roles:
-    - role: buluma.bootstrap
+    roles:
+      - role: buluma.bootstrap
