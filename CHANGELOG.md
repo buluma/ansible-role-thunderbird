@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-thunderbird/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/24.5.31...HEAD)
+
+**Merged pull requests:**
+
+- Bump docker/setup-buildx-action from 3 to 4 [\#19](https://github.com/buluma/ansible-role-thunderbird/pull/19) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [24.5.31](https://github.com/buluma/ansible-role-thunderbird/tree/24.5.31) (2024-05-25)
 
 [Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/24.3.31...24.5.31)
