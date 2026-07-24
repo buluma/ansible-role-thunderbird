@@ -17,4 +17,9 @@ platforms:
       - "43"
   - name: Ubuntu
     versions:
-      - all
+      # 24.04+ replaced the thunderbird apt package with a snap-only stub
+      # ("requires the thunderbird snap to be installed") - only 22.04
+      # still ships the real deb.
+      - "22.04"
+      - "20.04"
+      - "18.04"
