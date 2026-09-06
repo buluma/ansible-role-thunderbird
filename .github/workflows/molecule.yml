@@ -64,6 +64,10 @@ jobs:
             tag: "fedora43"
           - image: "docker-molecule-images"
             tag: "ubuntu2204"
+          - image: "docker-molecule-images"
+            tag: "ubuntu2004"
+          - image: "docker-molecule-images"
+            tag: "ubuntu1804"
     steps:
       - name: checkout
         uses: actions/checkout@v7
