@@ -23,5 +23,3 @@ platforms:
       # ("requires the thunderbird snap to be installed") - only 22.04
       # still ships the real deb.
       - "22.04"
-      - "20.04"
-      - "18.04"
