@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- drop Debian 11 from CI matrix [\#26](https://github.com/buluma/ansible-role-thunderbird/pull/26) ([buluma](https://github.com/buluma))
 - Bump ansible/ansible-lint from 26.6.0 to 26.8.0 [\#25](https://github.com/buluma/ansible-role-thunderbird/pull/25) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [26.6.1](https://github.com/buluma/ansible-role-thunderbird/tree/26.6.1) (2026-07-24)
