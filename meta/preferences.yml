@@ -8,7 +8,9 @@ platforms:
       - "9"
   - name: Debian
     versions:
-      - all
+      # Excludes 11 (bullseye): EOL. No role code depends on it.
+      - "bookworm"
+      - "trixie"
   - name: Fedora
     versions:
       # Excludes 45: it ships Python 3.15.0b3, whose dataclasses module
@@ -21,5 +23,3 @@ platforms:
       # ("requires the thunderbird snap to be installed") - only 22.04
       # still ships the real deb.
       - "22.04"
-      - "20.04"
-      - "18.04"
