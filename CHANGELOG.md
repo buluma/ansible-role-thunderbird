@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-thunderbird/tree/HEAD)
+## [26.9.0](https://github.com/buluma/ansible-role-thunderbird/tree/26.9.0) (2026-09-06)
 
-[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.6.1...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.6.1...26.9.0)
 
 **Merged pull requests:**
 
