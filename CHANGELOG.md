@@ -1,5 +1,13 @@
 # Changelog
 
+## [Unreleased](https://github.com/buluma/ansible-role-thunderbird/tree/HEAD)
+
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.9.0...HEAD)
+
+**Merged pull requests:**
+
+- Enable native Dependabot auto-merge with required CI [\#28](https://github.com/buluma/ansible-role-thunderbird/pull/28) ([buluma](https://github.com/buluma))
+
 ## [26.9.0](https://github.com/buluma/ansible-role-thunderbird/tree/26.9.0) (2026-09-06)
 
 [Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.6.1...26.9.0)
