@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Bump ansible/ansible-lint from 26.9.0 to 26.10.0 [\#30](https://github.com/buluma/ansible-role-thunderbird/pull/30) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump release-drafter/release-drafter from 7.7.0 to 7.9.0 [\#29](https://github.com/buluma/ansible-role-thunderbird/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [26.10.9](https://github.com/buluma/ansible-role-thunderbird/tree/26.10.9) (2026-10-04)
