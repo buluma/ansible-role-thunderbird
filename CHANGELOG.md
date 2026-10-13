@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-thunderbird/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.9.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.10.9...HEAD)
+
+**Merged pull requests:**
+
+- Bump release-drafter/release-drafter from 7.7.0 to 7.9.0 [\#29](https://github.com/buluma/ansible-role-thunderbird/pull/29) ([dependabot[bot]](https://github.com/apps/dependabot))
+
+## [26.10.9](https://github.com/buluma/ansible-role-thunderbird/tree/26.10.9) (2026-10-04)
+
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.9.0...26.10.9)
 
 **Merged pull requests:**
 
