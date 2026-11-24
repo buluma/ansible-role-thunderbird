@@ -2,10 +2,19 @@
 
 ## [Unreleased](https://github.com/buluma/ansible-role-thunderbird/tree/HEAD)
 
-[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.10.9...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.11.0...HEAD)
 
 **Merged pull requests:**
 
+- Regenerate files with ansible-generator [\#37](https://github.com/buluma/ansible-role-thunderbird/pull/37) ([buluma](https://github.com/buluma))
+
+## [26.11.0](https://github.com/buluma/ansible-role-thunderbird/tree/26.11.0) (2026-11-22)
+
+[Full Changelog](https://github.com/buluma/ansible-role-thunderbird/compare/26.10.9...26.11.0)
+
+**Merged pull requests:**
+
+- Update CHANGELOG.md [\#36](https://github.com/buluma/ansible-role-thunderbird/pull/36) ([github-actions[bot]](https://github.com/apps/github-actions))
 - ANS-70: Fix changelog workflow [\#35](https://github.com/buluma/ansible-role-thunderbird/pull/35) ([buluma](https://github.com/buluma))
 - Bump release-drafter/release-drafter from 7.10.0 to 7.11.0 [\#34](https://github.com/buluma/ansible-role-thunderbird/pull/34) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump ansible/ansible-lint from 26.10.1 to 26.11.0 [\#33](https://github.com/buluma/ansible-role-thunderbird/pull/33) ([dependabot[bot]](https://github.com/apps/dependabot))
